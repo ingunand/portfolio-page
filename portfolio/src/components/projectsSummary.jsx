@@ -1,12 +1,14 @@
 import React from 'react';
-import './styles/projectsSummary.css';
+import './frontpage.css';
+
 
 class ProjectsSummary extends React.Component {
 
     render() {
       return (
-            <div id="projectsSummaryMain">
-                
+            <div id="projectsSummaryMain" class="frontpage-parts">
+
+
             </div>
             );
     }
