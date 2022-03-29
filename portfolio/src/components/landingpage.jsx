@@ -7,7 +7,7 @@ class LandingPage extends React.Component {
 
     render() {
       return (
-            <header id="mainheader" class="frontpage-parts">
+            <header id="mainheader" className="frontpage-parts">
                {/* <nav>
                     <ul>
                         {// activeClass="active" kan legges inn i link tagg, active class activated when element is reached https://medium.com/how-to-react/scroll-to-an-element-on-click-in-react-js-8424e478bb9
@@ -18,7 +18,7 @@ class LandingPage extends React.Component {
                 </nav>*/
                 }
                 <div id="headerintro" >
-                    <img src={self} class="portrait" alt="Cartoon portrait of Ingunn"/>
+                    <img src={self} className="portrait" alt="Cartoon portrait of Ingunn"/>
                     <h1>Ingunn Hatlehol Andreassen</h1>
                     <h2><i>Web developer</i></h2>
                     <p>Front-end — CSS — HTML — JavaScript — React</p>

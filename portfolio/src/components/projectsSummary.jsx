@@ -6,7 +6,7 @@ class ProjectsSummary extends React.Component {
 
     render() {
       return (
-            <div id="projectsSummaryMain" class="frontpage-parts">
+            <div id="projectsSummaryMain" className="frontpage-parts">
 
 
             </div>
