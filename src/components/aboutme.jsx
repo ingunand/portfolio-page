@@ -22,7 +22,7 @@ class AboutMe extends React.Component {
                 <p>Take a look at my projects above, and feel free to contact me!</p>
 
                   <a href="https://www.linkedin.com/in/ingunn-hatlehol-andreassen/"><img className="logo" src={linkedin} alt="linkedin logo"/></a>
-                  <a href="mailto:ingunand@stud.ntnu.no"><img className="logo" src={email}/></a>
+                  <a href="mailto:ingunand@stud.ntnu.no"><img className="logo" alt="mail envelope" src={email}/></a>
               </div>
               <div>
                 <p>test</p>
