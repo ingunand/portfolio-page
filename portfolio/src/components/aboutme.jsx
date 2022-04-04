@@ -17,7 +17,6 @@ class AboutMe extends React.Component {
                
                 <div>
 
-
                 </div>
 
                 <p>Take a look at my projects above, and feel free to contact me!</p>
