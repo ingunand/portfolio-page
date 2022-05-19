@@ -12,6 +12,7 @@
 
 #projectsSummaryMain {
     background-image: url("./assets/greensides.png");
+    height:150vh;
 }
 
 #aboutMeMain {
@@ -36,3 +37,8 @@
     height: 5vh;
     margin: 0 20px;
 }
+
+#projectNavigation a{
+    text-decoration: none;
+    margin: 0 20px;
+  }

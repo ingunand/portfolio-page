@@ -1,6 +1,6 @@
 import React from 'react';
 import './frontpage.css';
-import self from './assets/tittei.png';
+import self from './assets/ingunn.png';
 //import {Link} from 'react-scroll';
 
 class LandingPage extends React.Component {
@@ -18,7 +18,7 @@ class LandingPage extends React.Component {
                 </nav>*/
                 }
                 <div id="headerintro" >
-                    <img src={self} className="portrait" alt="Cartoon portrait of Ingunn"/>
+                    <img src={self} className="portrait" alt="Portrait of Ingunn"/>
                     <h1>Ingunn Hatlehol Andreassen</h1>
                     <h2><i>Web developer</i></h2>
                     <p>Front-end — CSS — HTML — JavaScript — React</p>

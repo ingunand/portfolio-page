@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.projectsCommon{
+    padding: 1em 1em 1em 5em;
+    width:100%;
+}
+
+.projectsCommon img, .projectsCommon p{
+    width:50%;
+    margin: 0 auto;
+}
