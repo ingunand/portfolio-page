@@ -10,7 +10,7 @@ body{
   background-color: #141414;
 }
 
-h1, h2, h3, p, ul, a{
+h1, h2, h3, h4, p, ul, a{
   color: #BEA8A2;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -32,4 +32,8 @@ nav ul li{
 
 .active{
   text-decoration: underline #BEA8A2 ;
+}
+
+footer{
+  height:100vh;
 }
