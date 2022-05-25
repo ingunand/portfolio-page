@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root{
+  --beige: #BEA8A2;
+  --softBlack: #141414;
+  --lightGreen: #00CB07;
+  --medGreen: #00B107;
+  --darkGreen: #009307;
 }
 
 html{
@@ -7,12 +16,11 @@ html{
 }
 
 body{
-  background-color: #141414;
+  background-color: var(--softBlack);
 }
 
 h1, h2, h3, p, ul, a{
-  color: #BEA8A2;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--beige);
 }
 
 nav{
@@ -31,5 +39,5 @@ nav ul li{
 }
 
 .active{
-  text-decoration: underline #BEA8A2 ;
+  text-decoration: underline var(--beige) ;
 }
