@@ -19,8 +19,9 @@ body{
   background-color: var(--softBlack);
 }
 
-h1, h2, h3, p, ul, a{
+h1, h2, h3, h4, p, ul, a{
   color: var(--beige);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav{
@@ -40,4 +41,8 @@ nav ul li{
 
 .active{
   text-decoration: underline var(--beige) ;
+}
+
+footer{
+  height:100vh;
 }

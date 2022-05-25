@@ -2,12 +2,23 @@
     box-sizing: border-box;
 }
 
-.projectsCommon{
-    padding: 1em 1em 1em 5em;
+.projectsSummaryMain{
     width:100%;
 }
 
-.projectsCommon img, .projectsCommon p{
-    width:50%;
+.individualProjects{
+    display:grid;
+    width: 70%;
+    margin: 50px auto 200px auto;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+}
+
+.individualProjects img{
+    width:80%;
     margin: 0 auto;
+}
+
+.individualProjects span{
+    grid-column: 1 / 3;
 }
