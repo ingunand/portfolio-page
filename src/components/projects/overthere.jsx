@@ -8,8 +8,8 @@ class OverThere extends React.Component {
       return (
             <div className="individualProjects">
                 <span>
-                    <img src ={overthere} />
                     <h3>Over There Counter</h3>
+                    <img src ={overthere} />
                 </span>
                 <section>
                     <h4>Background</h4>

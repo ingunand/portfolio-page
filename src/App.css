@@ -42,7 +42,3 @@ nav ul li{
 .active{
   text-decoration: underline var(--beige) ;
 }
-
-footer{
-  height:100vh;
-}

@@ -19,6 +19,11 @@
     margin: 0 auto;
 }
 
+
 .individualProjects span{
     grid-column: 1 / 3;
+}
+
+h3{
+    margin: 20px auto;
 }
