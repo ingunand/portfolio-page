@@ -24,6 +24,10 @@ h1, h2, h3, h4, p, ul, a{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+p{
+  text-align: left;
+}
+
 nav{
   position: fixed;
   top: 10vh;
