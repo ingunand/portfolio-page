@@ -9,7 +9,7 @@ class OverThere extends React.Component {
             <div className="individualProjects">
                 <span>
                     <h3>Over There Counter</h3>
-                    <img src ={overthere} />
+                    <img src ={overthere} alt="Screenshot of over there webpage on pc and phone"/>
                 </span>
                 <section>
                     <h4>Background</h4>

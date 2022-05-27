@@ -9,7 +9,7 @@ class Bachelor extends React.Component {
         <div className="individualProjects">
         <span>
             <h3>Hamle — Bachelor project</h3>
-            <img src ={hamleMockup} />
+            <img src ={hamleMockup} alt="Screenshot of Hamle webpage phone on three pages"/>
         </span>
         <section>
             <h4>Background</h4>

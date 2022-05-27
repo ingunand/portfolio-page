@@ -10,7 +10,7 @@ class WebCoding extends React.Component {
         <div className="individualProjects">
             <span className="doublePictures">
                 <h3>Web coding — NTNU design</h3>
-                <img src ={webCodingMockup} />
+                <img src ={webCodingMockup} alt="Screenshot of NTNU design webpage on pc and phone"/>
             </span>
             <section>
                 <h4>Background</h4>
