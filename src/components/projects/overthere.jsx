@@ -13,14 +13,14 @@ class OverThere extends React.Component {
                 </span>
                 <section>
                     <h4>Background</h4>
-                    <p>This is a “for fun” project made to keep track of the amount of times one of our lecturers, Attila, said “over there” during the lecture. 
-                        And that was a lot. During the first lecture I noticed that he said “Over there” many times, and decided to count it the second lecture. 
+                    <p>This is a “for fun” project made to keep track of the amount of times one of our lecturers, Attila, said “Over there” during the lecture. 
+                        And that was a lot. During the first lecture I noticed that he said “Over there” many times, and decided to count it in the second lecture. 
                         The second lecture he said it <em>192 times</em>. I made my friends guess how many times he said it, and it became a fun thing to do during the lectures. 
                         It all started with pen and paper, but as a web development student I of course wanted a digital solution. 
                     </p>
-                    <p>The result was a web app made from React, 
-                        where the previous counters get data from a csv file. As soon as the page was a MVP it was deployed to Netlify from GitHub, so that I could share 
-                        it with my classmates. The button were in the start just a box, but it was later fixed to be Attilas face, and a mobile version was added. 
+                    <p>The result was a web app made with React, 
+                        where the previous counters get data from a CSV file. As soon as the page was a MVP it was deployed to Netlify from GitHub, so that I could share 
+                        it with my classmates. The button was in the start just a box, but it was later fixed to be Attilas face, and a mobile version was added. 
                         I made a big button of Attila's face for the counter, and a list of previous counters. I got to use the counter for the couple last lectures in the course,
                         and since I have a touch screen on my computer I could just split my computer in two windows and click the button to count in between taking notes.
                         This made the lectures more fun, and I actually paid more attention because I needed to hear all the times he said over there. 

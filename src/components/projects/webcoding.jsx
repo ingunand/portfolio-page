@@ -9,18 +9,18 @@ class WebCoding extends React.Component {
       return (
         <div className="individualProjects">
             <span className="doublePictures">
-                <h3>Web coding — NTNU design</h3>
+                <h3>Web Coding — NTNU design</h3>
                 <img src ={webCodingMockup} alt="Screenshot of NTNU design webpage on pc and phone"/>
             </span>
             <section>
                 <h4>Background</h4>
-                <p>This project was part of the course IDG1292 Web Coding with 7.5 study points, and was my exam assignment. We had already had 2 other assignments, 
-                    one that was made to introduce us that we made ourselves, and one that we just made the css for a html page from screenshot-mockups. The assignment 
+                <p>This project was part of the course IDG1292 Web Coding with 7.5 study points, and was my exam assignment. We had already had two other assignments, 
+                    one that was a page made to introduce us that we coded ourselves, and one that we just made the CSS for a HTML-page from screenshot-mockups. The assignment 
                     was to improve, or redesign the NTNU design homepage. We had to include a big picture with the name of the department on the homepage, and the rest 
                     of the design was mostly up to us. We also needed to include a program, application and contact page. These had their own requirements, 
                     but the design was up to us. The page is made out of HTML and CSS. 
                 </p>
-                <p>Even though I knew a bit of html and css from before starting at NTNU I learned a lot in web coding and while making the exam page. 
+                <p>Even though I knew a bit of HTML and CSS from before starting at NTNU I learned a lot in Web Coding and while making the exam page. 
                     The page works well now as a basic static website, but you would want the form to work and to sort the programs there must have been added 
                     some JavaScript and back-end. 
                 </p>

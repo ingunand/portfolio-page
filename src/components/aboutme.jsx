@@ -12,9 +12,10 @@ class AboutMe extends React.Component {
             <div id="aboutMeMain" className="frontpageParts">
               <div id="aboutMeContent">
                 <h2>About me</h2>
-                <p>I am soon done with a bachelors degree in web development from NTNU in Gjøvik, Norway. 
+                <p>I am soon done with a bachelor's degree in web development from NTNU in Gjøvik, Norway. 
                   I am most passionate about front-end and CSS, and I love to watch things take form on my screen.</p>
-                <p>I am originaly from Vatne, Møre og Romsdal, but I moved to Gjøvik to study in 2019. I have a love for lemurs and dogs, I love water melon and I eat taco every week!</p>
+                <p>I am originaly from Vatne, Møre og Romsdal, but I moved to Gjøvik to study in 2019. 
+                  I have a love for lemurs and dogs, I love watermelon and I eat tacos every week!</p>
                
                 <div>
 

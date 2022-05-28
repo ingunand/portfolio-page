@@ -47,6 +47,10 @@
     text-decoration: none;
 }
 
+#projectNavigation h2{
+    padding-top: 10vh;
+}
+
 footer section{
     width:75%;
     margin: 0 auto;
@@ -108,22 +112,30 @@ footer{
 }
 
 /*Responsive designs*/
+@media only screen and (max-width:1024px){
+    #aboutMeContent, footer section, #projectNavigation{
+        width:60%;
+    }
+    
+    .portrait{
+        width:40%;
+    }
+
+    #projectNavigation{
+        display:flex;
+        flex-direction: column;
+        margin:0 auto;
+    }
+
+}
 @media only screen and (max-width: 600px){
     #aboutMeMain, #projectsSummaryMain{
         background-image: none;
         background-color: var(--softBlack);
     }
 
-    #aboutMeContent, footer section{
+    #aboutMeContent, footer section, #projectNavigation{
         width:90%;
     }
 
-    #projectNavigation{
-        display:flex;
-        flex-direction: column;
-    }
-
-    .portrait{
-        width:40%;
-    }
 }
