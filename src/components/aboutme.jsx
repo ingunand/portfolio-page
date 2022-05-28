@@ -2,6 +2,7 @@ import React from 'react';
 import './frontpage.css';
 import linkedin from './assets/linkedin-white.png';
 import email from './assets/email.png';
+import github from './assets/github.png';
 
 
 class AboutMe extends React.Component {
@@ -23,6 +24,7 @@ class AboutMe extends React.Component {
 
                   <a href="https://www.linkedin.com/in/ingunn-hatlehol-andreassen/"><img className="logo" src={linkedin} alt="linkedin logo"/></a>
                   <a href="mailto:ingunand@stud.ntnu.no"><img className="logo" alt="mail envelope" src={email}/></a>
+                  <a href="https://github.com/ingunand"><img className="logo" alt="github logo" src={github}/></a>
               </div>
             </div>
             );

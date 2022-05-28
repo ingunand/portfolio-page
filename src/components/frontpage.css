@@ -31,6 +31,10 @@
 
 #aboutMeContent {
     width: 60%;
+    background-color: var(--softBlack);
+    opacity:90%;
+    border-radius: 1em;
+    padding: 0 20px;
 }
 
 .logo {
@@ -46,25 +50,22 @@
 footer section{
     width:75%;
     margin: 0 auto;
+    margin-bottom: 80px;
 }
 
 footer{
     position: relative;
-    height:100vh;
+    min-height:100vh;
     background-color: #282828;
-    padding-top: 8vh;
+    padding: 8vh 0;
 }
 
 #footerEnd{
     position:absolute;
     bottom:0;
     width:100%;
+    margin-top: 100px;
     text-align: center;
-}
-
-.currentProject{
-    text-transform: uppercase;
-    font-weight: bold;
 }
 
 .projectsButton{
@@ -104,4 +105,28 @@ footer{
     border-color: var(--lightGreen);
     color: var(--lighGreen);
     fill: var(--Green);
+}
+
+/*Responsive designs*/
+@media only screen and (max-width: 600px){
+    #aboutMeMain, #projectsSummaryMain{
+        background-image: none;
+        background-color: var(--softBlack);
+    }
+
+    #aboutMeContent{
+        width:80%;
+    }
+
+    #projectNavigation{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    footer section{
+        width:80%;
+    }
+
+
+
 }

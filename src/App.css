@@ -46,3 +46,19 @@ nav ul li{
 .active{
   text-decoration: underline var(--beige) ;
 }
+
+/*Mobile version menu*/
+@media only screen and (max-width: 600px){
+  nav {
+    top:0;
+    width:100%;
+    background-color: var(--softBlack);
+    right:0;
+  }
+
+  nav ul li{
+    display:inline-block;
+  }
+
+
+}
