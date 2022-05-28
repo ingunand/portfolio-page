@@ -114,19 +114,14 @@ footer{
         background-color: var(--softBlack);
     }
 
-    #aboutMeContent{
-        width:80%;
+    #aboutMeContent, footer section{
+        width:90%;
     }
 
     #projectNavigation{
         display:flex;
         flex-direction: column;
     }
-    
-    footer section{
-        width:80%;
-    }
-
 
 
 }
