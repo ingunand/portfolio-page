@@ -15,7 +15,7 @@ function App() {
             <li><Link to="mainheader" activeClass="active" spy={true} smooth={true}>Welcome</Link></li>
             <li><Link to="aboutMeMain" activeClass="active" spy={true} smooth={true}>About me</Link></li>
             <li><Link to="projectsSummaryMain" activeClass="active" spy={true} smooth={true}>Projects</Link></li>
-            <li><Link to="footer" activeClass="active" spy={true} smooth={true}>IDG3800</Link></li>
+            <li><Link to="footer" activeClass="active" spy={true} smooth={true}>Plan</Link></li>
           </ul>
       </nav>
       <LandingPage/>
