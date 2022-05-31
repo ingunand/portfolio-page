@@ -1,5 +1,6 @@
 import React from 'react';
 import overthere from './overthere-mockup.png';
+import overthereWEBP from './overthere-mockup.webp';
 
 
 class OverThere extends React.Component {
@@ -9,7 +10,10 @@ class OverThere extends React.Component {
             <div className="individualProjects">
                 <span>
                     <h3>Over There Counter</h3>
-                    <img src ={overthere} alt="Screenshot of over there webpage on pc and phone"/>
+                    <picture>
+                        <source srcSet={overthereWEBP} type="image/webp"/>
+                        <img src ={overthere} alt="Screenshot of over there webpage on pc and phone"/>
+                    </picture>
                 </span>
                 <section>
                     <h4>Background</h4>

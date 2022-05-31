@@ -1,6 +1,7 @@
 import React from 'react';
 import './project.css';
 import webCodingMockup from './ntnudesign-mockup.png';
+import webCodingMockupWEBP from './ntnudesign-mockup.webp';
 
 
 class WebCoding extends React.Component {
@@ -10,7 +11,10 @@ class WebCoding extends React.Component {
         <div className="individualProjects">
             <span className="doublePictures">
                 <h3>Web Coding — NTNU design</h3>
-                <img src ={webCodingMockup} alt="Screenshot of NTNU design webpage on pc and phone"/>
+                <picture>
+                    <source srcSet={webCodingMockupWEBP} type="image/webp"/>
+                    <img src ={webCodingMockup} alt="Screenshot of NTNU design webpage on pc and phone"/>
+                </picture>
             </span>
             <section>
                 <h4>Background</h4>
@@ -28,9 +32,9 @@ class WebCoding extends React.Component {
             <section>
                 <h4>Improvements</h4>
                 <p>For improvements there are some design choices I could take another look at. Almost all elements on the pages are squared, except for 
-                    the navigation choices. I would set a standard and choose only rounded or only squared elements to make a standard for the whole page. 
+                    the navigation choices. I would set a standard and choose only squared elements to make a standard for the whole page. 
                     I can also see that the logo in the navigation bar looks dragged out, so that needs to be resized, especially in the mobile version. 
-                    The mobile version could also benefit from some bigger text and elements, to make it more readable. To make the page more usable and not so 
+                    The mobile version could also benefit from some bigger text and elements, to make it more readable and usable for everyone. To make the page more usable and not so 
                     static, I would add sorting options on the programmes-page, to make it possible to sort courses by what study program they belong to, and by 
                     level or year. 
                 </p>

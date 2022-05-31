@@ -1,5 +1,6 @@
 import React from 'react';
 import hamleMockup from './hamle-mockup.png';
+import hamleMockupWEBP from './hamle-mockup.webp';
 
 
 class Bachelor extends React.Component {
@@ -9,7 +10,10 @@ class Bachelor extends React.Component {
         <div className="individualProjects">
         <span>
             <h3>Hamle — Bachelor project</h3>
-            <img src ={hamleMockup} alt="Screenshot of Hamle webpage phone on three pages"/>
+            <picture>
+                <source srcSet={hamleMockupWEBP} type="image/webp"/>
+                <img src ={hamleMockup} alt="Screenshot of Hamle webpage phone on three pages"/>
+            </picture>
         </span>
         <section>
             <h4>Background</h4>
@@ -28,14 +32,23 @@ class Bachelor extends React.Component {
         </section>
         <section>
             <h4>Improvements</h4>
-            <p>The first imporovements I would want to make is to make the inventory list and shopping list more distinct from each other. 
-                The inventory does not need a checkbox. It would also be good to have an overview of how long you have had the food in your 
-                fridge, and how many of it you have. That is really the most important thing I would add to make the app more usable. 
+            <p>The first improvements I would want to make is to make the inventory list and shopping list more distinct from each other. 
+                The inventory does not need a checkbox as the shopping list does. It would also be good to have an overview of how long you have had the food in your 
+                fridge, and how many of it you have. 
+                I would do that by adding a timer, that would register the day the item was added, and then count how many 
+                days today's day is from that date. That would make it easier to keep track of how long I have had the food 
+                in my fridge. I would also like to add categories on the item, of where they are stored. The category would 
+                by default be empty when added from the shopping list, but could easily be added by editing the item or 
+                adding it directly to the inventory. The category should be chosen with a drop down menu. The categories 
+                should be fridge, freezer and cabinet. I would also like to add the possibility to move an item from a 
+                category to another. When editing the item it should be possible to change the category in the drop down 
+                menu, and when the category is changed the timer should restart to know how long the item has been stored 
+                in the new storage space.
             </p>
         </section>
 
     </div>
-            );
+        );
     }
 }
 
