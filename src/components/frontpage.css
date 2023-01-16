@@ -51,15 +51,10 @@
     padding-top: 10vh;
 }
 
-footer section{
-    width:75%;
-    margin: 0 auto;
-    margin-bottom: 80px;
-}
 
 footer{
     position: relative;
-    min-height:100vh;
+    min-height:10vh;
     background-color: #282828;
     padding: 8vh 0;
 }
