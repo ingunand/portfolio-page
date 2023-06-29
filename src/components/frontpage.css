@@ -94,17 +94,17 @@ footer{
     touch-action: manipulation;
 }
 
-.projectsButton:hover{
+.projectsButton:hover , .active{
     border-color: var(--medGreen);
-    color: var(--medGreen);
     fill: var(--medGreen);
 }
 
-.projectsButton:active{
+.projectsButton:active {
     border-color: var(--lightGreen);
     color: var(--lighGreen);
     fill: var(--Green);
 }
+
 
 /*Responsive designs*/
 @media only screen and (max-width:1024px){
