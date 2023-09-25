@@ -12,7 +12,7 @@ class LandingPage extends React.Component {
                     <img src={self} className="portrait" alt="Portrait of Ingunn"/>
                     <h1>Ingunn Hatlehol Andreassen</h1>
                     <h2><i>Web developer</i></h2>
-                    <h3>Front-end — CSS — HTML — JavaScript — React</h3>
+                    <h3>Front-end — CSS — HTML — UX</h3>
                 </div>
             </header>
             );
